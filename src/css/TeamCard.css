@@ -1,0 +1,23 @@
+.teamcard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+}
+
+.avator {
+    border-radius: 60%;
+}
+
+.list-group-flush {
+    justify-content: center;
+    align-items: center;
+}
+
+.btnlink {
+    align-items: center;
+    margin-left: 10px;
+}
+
+.btnlink1 {
+    margin-left: 15px;
+}
