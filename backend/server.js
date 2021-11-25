@@ -7,6 +7,11 @@ const port = process.env.PORT || 4000;
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
+//db config
+require('dotenv').config();
+require('./db/db.config')
+//require('./models/teaminfo.model')
+require('./models/user.model')
 //routes for requests made by user
 
 // Server port listening

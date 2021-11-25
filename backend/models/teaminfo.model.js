@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // User Schema Declaration
-const teamSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
     name : {
         type: String,
         required: true
@@ -10,11 +10,6 @@ const teamSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    skills: [
-        {
-            technologyName: String
-        }
-    ],
     github : {
         link: String,
         unique: true
@@ -26,5 +21,5 @@ const teamSchema = new mongoose.Schema({
 })
 
 //creating new collection in db
-const teamInfo = new mongoose.model("teamInfo", teamSchema);
+const teamInfo = new mongoose.model("teamInfo", userSchema);
 module.exports = teamInfo;
