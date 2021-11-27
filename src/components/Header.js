@@ -9,7 +9,7 @@ function Header() {
           <Container fluid>
           <img
             className="login__logo"
-            src='https://drive.google.com/file/d/1giR07VFlkcQ3Zl5lOKBxAM59WO9cMJJV/view?usp=sharing' 
+            src='https://media.istockphoto.com/photos/preparing-homemade-chocolate-truffles-picture-id875182498?k=20&m=875182498&s=612x612&w=0&h=W2kwv0l9fCXkzDacExUlBwKH2LQ6-2wDQrfeBa_L4z0=' 
           />
           <Navbar.Brand href="/">Sweet Basket</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
