@@ -7,8 +7,7 @@ function Login() {
 
     return (
         <div className='login'>
-                
-
+            
             <div className='login__container'>
                 <h1>Sign-in</h1>
 

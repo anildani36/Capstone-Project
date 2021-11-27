@@ -12,7 +12,7 @@ function TeamCard() {
     return (
         <div className="teamcard">
             <Card style={{ width: '18rem' }}>
-                <Card.Img className="avator" variant="top" src="holder.js/100px180?text=Image cap" />
+                <Card.Img className="avator" variant="top" src="https://github.com/account" />
                 <Card.Body>
                     <Card.Title>Develpoer's Name</Card.Title>
                     <Card.Text>
