@@ -3,7 +3,10 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            <h1>Home Component</h1>
+<<<<<<< HEAD
+=======
+            <h1>HOME COMPONENT</h1>
+>>>>>>> 40b7764b4e8f1a223e8e1d1526d203e5c57afac1
         </div>
     )
 }

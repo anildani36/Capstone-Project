@@ -7,6 +7,9 @@ function Header() {
         <div>
           <Navbar bg="light" expand="lg">
           <Container fluid>
+<<<<<<< HEAD
+=======
+>>>>>>> 40b7764b4e8f1a223e8e1d1526d203e5c57afac1
           <Navbar.Brand href="/">Sweet Basket</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
