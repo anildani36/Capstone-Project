@@ -22,7 +22,7 @@ function Login() {
                 </form>
 
                 <p>
-                    By signing-in you agree to the Ecommerce Site Conditions of Use & Sale. Please
+                    By signing-in you agree to the Sweet Basket Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 

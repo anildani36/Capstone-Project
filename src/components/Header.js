@@ -7,10 +7,6 @@ function Header() {
         <div>
           <Navbar bg="light" expand="lg">
           <Container fluid>
-          <img
-            className="login__logo"
-            src='https://drive.google.com/file/d/1giR07VFlkcQ3Zl5lOKBxAM59WO9cMJJV/view?usp=sharing' 
-          />
           <Navbar.Brand href="/">Sweet Basket</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
