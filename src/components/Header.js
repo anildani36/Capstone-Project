@@ -2,14 +2,12 @@ import React from 'react'
 import { Navbar, Container, NavDropdown, Nav, Button, Form, FormControl } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function Header() {
     return (
         <div>
-          <Navbar bg="light" expand="lg">
+          <Navbar  bg="dark" variant="dark" expand="lg">
           <Container fluid>
-<<<<<<< HEAD
-=======
->>>>>>> 40b7764b4e8f1a223e8e1d1526d203e5c57afac1
           <Navbar.Brand href="/">Sweet Basket</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
