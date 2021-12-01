@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Register from './components/Register';
 import About from './components/About';
+import Services from './components/Services';
+
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
           <BrowserRouter>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/services">
+              <Services />
             </Route>
             <Route path="/user/login">
               <Login />

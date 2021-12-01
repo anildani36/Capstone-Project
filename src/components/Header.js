@@ -17,6 +17,7 @@ function Header() {
               navbarScroll
             >
         <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/services">Services</Nav.Link>
         <Nav.Link href="/about">About</Nav.Link>
         <NavDropdown title="Blogs" id="navbarScrollingDropdown">
           <NavDropdown.Item href="/blogs/sweets">Sweet Blogs</NavDropdown.Item>
