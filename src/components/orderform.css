@@ -1,0 +1,27 @@
+#order-form-person {
+    width:40%;
+    margin-left: 80px;
+    float: left;
+    text-align: left;
+}
+
+#order-form-cake {
+    width:40%;
+    margin-right: 80px;
+    float: right;
+    text-align: left;
+}
+
+#submit-order-btns {
+    text-align: center;
+}
+
+.order-header {
+    text-align: center;
+}
+
+#submit-btn-green {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px 50px;
+}
