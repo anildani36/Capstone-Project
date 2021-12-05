@@ -29,10 +29,10 @@ function Header() {
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/user/login">
-          Login
+          Sign In
         </Nav.Link>
         <Nav.Link href="/user/register">
-          Sign up
+          Sign Up
         </Nav.Link>
       </Nav>
       <Form className="d-flex">
