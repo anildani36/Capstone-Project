@@ -7,7 +7,12 @@ import '../css/Home.css';
 
 function Home() {
     return (
-        <div className="home" style={{backgroundImage: `url(${BannerImage})` }}>
+        <div className="home" style={{backgroundImage: `url(${BannerImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width:'100vw',
+        height:'100vh' }}>
             <div className="headerContainer">
             <h1>Sweet Basket</h1><br></br>
             <p>Hungry? Why Wait? Grab A Sweet Treat!!!</p>
