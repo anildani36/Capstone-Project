@@ -3,10 +3,16 @@ import TeamCard from './TeamCard'
 import { Card } from 'react-bootstrap'
 import '../css/About.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BannerImage from '../asserts/cake13.jpg';
 
 function About() {
     return (
-        <div className="about">
+        <div className="about" style={{backgroundImage: `url(${BannerImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width:'100vw',
+        height:'100vh' }}>
             <div className="info">
                 <Card>
                     <Card.Title>What is Project About?</Card.Title>
