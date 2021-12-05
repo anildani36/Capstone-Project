@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../css/Register.css'
+import BannerImage from '../asserts/cake12.jpg';
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -7,7 +8,12 @@ function Register() {
     const [name, setName] = useState('');
 
     return (
-        <div className='register'>
+        <div className='register' style={{backgroundImage: `url(${BannerImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width:'100vw',
+        height:'100vh' }}>
             
             <div className='register__container'>
                 <h1>Sign-up</h1>

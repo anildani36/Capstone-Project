@@ -1,12 +1,19 @@
 import React, { useState } from 'react'
 import '../css/Login.css'
+import BannerImage from '../asserts/cake9.jpg';
+
 
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
     return (
-        <div className='login'>
+        <div className='login' style={{backgroundImage: `url(${BannerImage})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width:'100vw',
+        height:'100vh' }}>
             
             <div className='login__container'>
                 <h1>Sign-in</h1>
