@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Login from './components/Login';
 import Register from './components/Register';
@@ -10,7 +11,8 @@ import Services from './components/Services';
 
 function App() {
   return (
-        <div className="App">
+        <div className="page-container">
+          <div className="content-wrap">
           <Header />
           <BrowserRouter>
             <Route path="/about">
@@ -28,7 +30,10 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+            
           </BrowserRouter>
+          </div>
+          <Footer/>
         </div>
   );
 }
