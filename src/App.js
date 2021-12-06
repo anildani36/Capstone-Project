@@ -18,9 +18,9 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/services">
+            {/* <Route path="/services">
               <Services />
-            </Route>
+            </Route> */}
             <Route path="/user/login">
               <Login />
             </Route>

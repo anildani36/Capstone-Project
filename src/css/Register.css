@@ -18,6 +18,8 @@
 .register__container {
     width: 300px;
     height: fit-content;
+    margin-top: 100px;
+    margin-left: 850px;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
