@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Container, NavDropdown, Nav, Button, Form, FormControl } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../css/Header.css'
 
 
 function Header() {
@@ -16,6 +17,7 @@ function Header() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
+        <div className="nav_names">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/services">Services</Nav.Link>
         <Nav.Link href="/about">About</Nav.Link>
@@ -34,6 +36,7 @@ function Header() {
         <Nav.Link href="/user/register">
           Sign Up
         </Nav.Link>
+        </div>
       </Nav>
       <Form className="d-flex">
         <FormControl

@@ -59,3 +59,17 @@
 // }
 
 // export default Services
+
+import React from 'react'
+
+function Services() {
+  return (
+    <div>
+      <h4>Page is under construction</h4>
+      <h2>Sorry for inconvinience</h2>
+    </div>
+  )
+}
+
+export default Services
+
