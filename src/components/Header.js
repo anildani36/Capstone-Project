@@ -8,7 +8,7 @@ function Header() {
     return (
         <div>
           <Navbar  bg="dark" variant="dark" expand="lg">
-          <Container fluid>
+          <Container>
           <Navbar.Brand href="/">SWEET BASKET</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
