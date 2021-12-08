@@ -19,7 +19,7 @@ export const SerData =[
     {
         image: Sweet,
         name:"Sweets",
-        description:"No need for an occasion to eat sweets. "
+        description:"No need for an occasion to eat sweets. So don't wait just have a blast! "
     },
     {
         image: Candy,
@@ -34,6 +34,6 @@ export const SerData =[
     {
         image: Dryfruit,
         name:"Dried Fruits",
-        description:"Eat dried fruits and be healthy"
+        description:"Eat dried fruits and be healthy. You will find everything here"
     }
 ]
