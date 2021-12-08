@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../css/Login.css'
-import BannerImage from '../asserts/cake9.jpg';
+import BannerImage from '../asserts/cake11.jpg';
 
 
 function Login() {
@@ -12,7 +12,7 @@ function Login() {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        width:'100vw',
+        width:'98.92vw',
         height:'100vh' }}>
             
             <div className='login__container'>

@@ -11,7 +11,7 @@ function About() {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        width:'100vw',
+        width:'98.92vw',
         height:'100vh' }}>
             <div className="info">
                 <Card>

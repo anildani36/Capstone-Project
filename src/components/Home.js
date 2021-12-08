@@ -1,7 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react'
 import {Link} from 'react-router-dom';
-import BannerImage from '../asserts/cake11.jpg';
+import BannerImage from '../asserts/cake9.jpg';
 import '../css/Home.css';
 
 
@@ -11,7 +11,7 @@ function Home() {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        width:'100vw',
+        width:'98.92vw',
         height:'100vh' }}>
             <div className="headerContainer">
             <h1>Sweet Basket</h1><br></br>
