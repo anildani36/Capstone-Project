@@ -3,7 +3,7 @@ import TeamCard from './TeamCard'
 import { Card } from 'react-bootstrap'
 import '../css/About.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BannerImage from '../asserts/cake13.jpg';
+import BannerImage from '../asserts/cake131.jpg';
 
 function About() {
     return (
