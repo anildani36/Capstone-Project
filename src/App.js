@@ -7,6 +7,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import About from './components/About';
 import Services from './components/Services';
+import Cart from "./components/Cart";
 
 
 function App() {
@@ -29,9 +30,11 @@ function App() {
             </Route>
             <Route exact path="/">
               <Home />
+              <Cart/>
             </Route>
             
           </BrowserRouter>
+          
           </div>
           <Footer/>
         </div>
