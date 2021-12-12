@@ -1,7 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react'
 import {Link} from 'react-router-dom';
-import BannerImage from '../asserts/cake9.jpg';
+import BannerImage from '../asserts/tao1.jpg';
 import '../css/Home.css';
 
 
