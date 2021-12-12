@@ -2,11 +2,15 @@ import React from 'react'
 import { Navbar, Container, NavDropdown, Nav, Button, Form, FormControl } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../css/Header.css'
+import { useContext } from "react";
+import CartContext from "../context/cart/CartContext";
+// import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 
 function Header() {
+  const { cartItems, showHideCart } = useContext(CartContext);
     return (
-        <div>
+        <div className="abcd">
           <Navbar  bg="dark" variant="dark" expand="lg">
           <Container>
           <Navbar.Brand href="/">SWEET BASKET</Navbar.Brand>
@@ -14,7 +18,7 @@ function Header() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              style={{ height: '70px' }}
               navbarScroll
             >
         <div className="nav_names">
@@ -36,6 +40,17 @@ function Header() {
         <Nav.Link href="/user/register">
           Sign Up
         </Nav.Link>
+        {/* <div className='navstar'>
+        <div className='cart__icon'>
+          <img src="../asserts/iconcart.png" alt="cart" />
+          
+            <div className='item__count'>
+              <span></span>
+            </div>
+          
+        </div>
+      </div>
+         */}
         </div>
       </Nav>
       <Form className="d-flex">
@@ -46,7 +61,22 @@ function Header() {
           aria-label="Search"
         />
         <Button variant="outline-success">Search</Button>
-      </Form>
+      </Form>  
+      <div className='navhero'>
+        <div className='cart__icon text-info'  onClick={showHideCart}>CART
+          <i
+            className='fa fa-shopping-cart'
+            aria-hidden='true'
+            // onClick={showHideCart}
+          />
+          {cartItems.length > 0 && (
+            <div className='item__count'>
+              <span>{cartItems.length}</span>
+            </div>
+          )}
+        </div>
+      </div>
+
     </Navbar.Collapse>
   </Container>
 </Navbar>
