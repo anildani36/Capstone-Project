@@ -22,6 +22,7 @@
   }
   
   .CartItem__button {
+    background-color: IndianRed  ;
     margin-left: auto;
     padding: 4px 8px;
     border-radius: 4px;
