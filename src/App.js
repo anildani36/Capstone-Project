@@ -30,10 +30,11 @@ function App() {
             </Route>
             <Route exact path="/">
               <Home />
-              <Cart/>
+              
             </Route>
             
           </BrowserRouter>
+          <Cart/>
           
           </div>
           <Footer/>
