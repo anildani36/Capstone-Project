@@ -15,8 +15,11 @@ function About() {
         height:'100vh' }}>
             <div className="info">
                 <Card>
-                    <Card.Title>What is Project About?</Card.Title>
-                    <Card.Body>Sweet Basket is a online ordering platform where everyone can order cakes, chocolates,cookies etc.. from various shops and home bakers.</Card.Body>
+                    <Card.Title style={{color:'MediumVioletRed ',textAlign:'center'}}>Meet The Team</Card.Title>
+                    <Card.Body style={{color:'MidnightBlue '}}>The team consist of 3 dedicated members who are learning about the Product Engineering from SOAL from last six months.
+                        Currently we are working on our Capstone Project and our idea is to make a Ecommerce kind of website which will deal with the sweets. In country like India where people are crazy
+                        about sweets, cakes and other iteams , this website will create a landmark change for those who carves for sweetness. Sweet Basket is a online ordering platform where everyone 
+                        can order cakes, chocolates,cookies etc.. from various shops and home bakers. Currently we are working on it so that we can add more features to it.</Card.Body>
                 </Card>
             </div>
             <div>
