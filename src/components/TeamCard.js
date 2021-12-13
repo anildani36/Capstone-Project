@@ -14,7 +14,8 @@ function TeamCard() {
             <Card style={{ width: '18rem' }}>
                 <Card.Img className="avator" variant="top" src="https://github.com/account" />
                 <Card.Body>
-                    <Card.Title>Shivam</Card.Title>
+                    <Card.Title>Shivam ,Anil, Dharani</Card.Title>
+
                     <Card.Text>
                     Frontend Developer 
                     </Card.Text>
