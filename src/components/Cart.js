@@ -6,7 +6,7 @@ import CartItem from "./CartItem";
 
 const Cart = () => {
   const { showCart, cartItems, showHideCart } = useContext(CartContext);
-  let opts = { format: "%s%v", symbol: "€" };
+  let opts = { format: "%s%v", symbol: "Rs " };
 
   return (
     <>
@@ -20,9 +20,9 @@ const Cart = () => {
               onClick={showHideCart}
             ></i>
           </div>
-          <div className='cart__innerWrapper'>
+          <div className='cart__innerWrapper'style={{color:"purple", font:"bold"}}>
             {cartItems.length === 0 ? (
-              <h4>Cart is Empty</h4>
+              <h4>CART IS EMPTY</h4>
             ) : (
               <ul>
                 {cartItems.map((item) => (
@@ -31,12 +31,12 @@ const Cart = () => {
               </ul>
             )}
           </div>
-          <div className='Cart__cartTotal'>
-            <div>Cart Total</div>
+          <div className='Cart__cartTotal' style={{color:'rgb(176,0,0)'}}>
+            <div>CART TOTAL</div>
             <div></div>
             <div style={{ marginLeft: 5 }}>
               {formatCurrency(
-                cartItems.reduce((amount, item) => item.price + amount, 0),
+                cartItems.reduce((amount, item) => item.price + amount,0),
                 opts
               )}
             </div>
