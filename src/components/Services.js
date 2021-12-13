@@ -4,10 +4,10 @@ import  { useContext} from 'react'
 // import Card from './Card';
 import { SerData } from '../helper/SerData';
 import '../css/Services.css';
-import {ButtonGroup, Button} from 'react-bootstrap';
-import {NavLink} from 'react-router-dom';
+import { ButtonGroup, Button } from 'react-bootstrap';
+// import {NavLink} from 'react-router-dom';
 import CartContext from '../context/cart/CartContext';
-
+// import Boxes from '../asserts/tao1.jpg';
 
 function Services() {
   const[items, setItems] = useState( SerData);
@@ -23,18 +23,19 @@ function Services() {
   }
     return (
         <>
+        <div className= "serv"  style={{backgroundColor:'white'}}>
         <div className="my-5">
 <h1 className="text-center">Our Services</h1>
 <>
 <div className="text-center text-bold">
 <ButtonGroup aria-label="Basic example">
-  <Button variant="outline-primary" onClick={()=> filterItem('cake')}>CAKES</Button>
-  <Button variant="outline-danger" onClick={()=> filterItem('chocolate')}>CHOCOLATES</Button>
-  <Button variant="outline-primary"  onClick={()=> filterItem('sweet')}>SWEETS</Button>
-  <Button variant="outline-danger"  onClick={()=> filterItem('cand')}>CANDIES</Button>
-  <Button variant="outline-primary"  onClick={()=> filterItem('dess')}>DESSERTS</Button>
-  <Button variant="outline-danger"  onClick={()=> filterItem('dried')}>DRIED FRUITS</Button>
-  <Button variant="dark"  onClick={()=>setItems(SerData)}>ALL ITEMS</Button>
+  <Button variant="outline-info" onClick={()=> filterItem('cake')}>CAKES</Button>{''}
+  <Button variant="outline-danger" onClick={()=> filterItem('chocolate')}>CHOCOLATES</Button>{''}
+  <Button variant="outline-info"  onClick={()=> filterItem('sweet')}>SWEETS</Button>{''}
+  <Button variant="outline-danger"  onClick={()=> filterItem('cand')}>CANDIES</Button>{''}
+  <Button variant="outline-info"  onClick={()=> filterItem('dess')}>DESSERTS</Button>{''}
+  <Button variant="outline-danger"  onClick={()=> filterItem('dried')}>DRIED FRUITS</Button>{''}
+  <Button variant="outline-dark"  onClick={()=>setItems(SerData)}>ALL ITEMS</Button>
 
 </ButtonGroup>
   </div>
@@ -55,10 +56,10 @@ function Services() {
     <img src={image} className="card-img-top" alt={image}/>
     <div className="card-body">
       <h5 className="card-title font-weight-bold">{names}</h5>
-      <h6 className="card-title font-weight-bold">Rs{price}/-</h6>
+      <h6 className="card-title font-weight-bold">Rs {price} /-</h6>
       <p className="card-text">{description}</p>
       {/* <a href="" className="btn btn-primary">Lets Go</a> */}
-      <NavLink to="" className="btn btn-primary" onClick={() => addToCart(elem)}>Lets Go</NavLink>
+      <Button to="" className="btn btn-primary" onClick={() => addToCart(elem)}>Add To Cart</Button>
     </div>
   </div>
                    </div>
@@ -74,6 +75,7 @@ function Services() {
                    </div>
                    </div>
                    </div>
+         </div>
          </div>
      
  

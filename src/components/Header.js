@@ -19,7 +19,7 @@ function Header() {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ height: '70px' }}
+              style={{ height: '70px',maxHeight:'120px' }}
               navbarScroll
             >
         <div className="nav_names">
@@ -64,7 +64,7 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>  
       <div className='navhero'>
-        <div className='cart__icon text-info'  onClick={showHideCart}>CART
+        <div className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
           <i
             className='fa fa-shopping-cart'
             aria-hidden='true'
