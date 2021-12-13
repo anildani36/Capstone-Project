@@ -1,15 +1,21 @@
 import Cakess from '../asserts/cake201.jpg';
 import Chocolate from '../asserts/choco1.jpg';
 import Sweet from '../asserts/swe1.jpg';
-import Candy from '../asserts/can1.jpg';
+import Candy from '../asserts/ras.jpg';
 import Dessert from '../asserts/pud1.jpg';
 import Dryfruit from '../asserts/dried.jpg';
 import White from '../asserts/whitechoco1.jpg';
 import Almond from '../asserts/alam1.jpg';
 import Cashew from '../asserts/kaju1.jpg';
-import Lolipop from '../asserts/can1.jpg';
-import Sweetto from '../asserts/can1.jpg';
-// import Puding from '../asserts/can1.jpg';
+import Lolipop from '../asserts/loli.jpg';
+import Sweetto from '../asserts/laddos.jpg';
+import Puding from '../asserts/dahi.jpg';
+import Motu from '../asserts/cake41.jpg';
+import Van from '../asserts/val.jpg';
+import Bat from '../asserts/shan.jpg';
+
+
+
 
 
 
@@ -33,8 +39,8 @@ export const SerData =[
     },
     {
         _id: "3",
-        image: Sweet,
-        names:"Barfies",
+        image: Motu,
+        names:"Dark Chocolate Cake",
         category: "cake",
         price: "403",
         description:"No need for an occasion to eat sweets. So don't wait just have a blast! "
@@ -42,7 +48,7 @@ export const SerData =[
     {
         _id: "4",
         image: Candy,
-        names:"Candies",
+        names:"Rasgullas",
         category: "sweet",
         price: "330",
         description:"They come in a variety of colours, hard outside and yumminess inside. "
@@ -58,7 +64,7 @@ export const SerData =[
     {
         _id: "6",
         image: Dryfruit,
-        names:"Dried Fruits",
+        names:"Pistachio",
         category: "dried",
         price: " 150",
         description:"Eat dried fruits and be healthy. You will find everything here"
@@ -82,16 +88,16 @@ export const SerData =[
      {
         _id: "9",
         image: Sweetto,
-        names:"Milk Made Sweets",
+        names:"Laddos",
         category: "sweet",
         price: " 100",
         description:"Eat dried fruits and be healthy. You will find everything here"
     },
      {
         _id: "10",
-        image: Dryfruit,
-        names:"Dried Fruits",
-        category: "sweet",
+        image: Puding,
+        names:"Dahi",
+        category: "dess",
         price: " 70",
         description:"Eat dried fruits and be healthy. You will find everything here"
     },
@@ -108,6 +114,30 @@ export const SerData =[
         image: Lolipop,
         names:"Dried Fruits",
         category: "cand",
+        price: "400",
+        description:"Eat dried fruits and be healthy. You will find everything here"
+    },
+    {
+        _id: "13",
+        image: Bat,
+        names:"Gems",
+        category: "cand",
+        price: "10",
+        description:"Eat dried fruits and be healthy. You will find everything here"
+    },
+    {
+        _id: "14",
+        image: Van,
+        names:"Vanila Cake ",
+        category: "cake",
+        price: "400",
+        description:"Eat dried fruits and be healthy. You will find everything here"
+    },
+    {
+        _id: "15",
+        image: Sweet,
+        names:"Milk Slices",
+        category: "sweet",
         price: "400",
         description:"Eat dried fruits and be healthy. You will find everything here"
     }
