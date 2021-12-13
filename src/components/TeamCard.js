@@ -14,9 +14,9 @@ function TeamCard() {
             <Card style={{ width: '18rem' }}>
                 <Card.Img className="avator" variant="top" src="https://github.com/account" />
                 <Card.Body>
-                    <Card.Title>Develpoer's Name</Card.Title>
+                    <Card.Title>Shivam</Card.Title>
                     <Card.Text>
-                    Role in the Project
+                    Frontend Developer 
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
