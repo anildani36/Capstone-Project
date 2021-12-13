@@ -1,3 +1,5 @@
+// page is currently not in use
+
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
