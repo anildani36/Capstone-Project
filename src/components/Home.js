@@ -13,6 +13,7 @@ import Dax from '../asserts/food21.jpg';
 
 
 
+
 function Home() {
     return (
         <div className='home1'>
