@@ -23,35 +23,26 @@ function Header() {
               navbarScroll
             >
         <div className="nav_names">
-        <Nav.Link href="/services">Services</Nav.Link>
-        <Nav.Link href="/about">About</Nav.Link>
-        <NavDropdown title="Blogs" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="/blogs/sweets">Sweet Blogs</NavDropdown.Item>
-          <NavDropdown.Item href="/blogs/food">Food Blogs</NavDropdown.Item>
-          <NavDropdown.Item href="/blogs/bakery_products">Bakery Products</NavDropdown.Item>
+        <Nav.Link className="nav1" href="/services">Services</Nav.Link>
+        <Nav.Link className="nav2" href="/about">About</Nav.Link>
+        <NavDropdown title="Food Blogs" id="navbarScrollingDropdown" className="nav3">
+          <NavDropdown.Item href="https://www.loveandlemons.com/">Love and Lemons</NavDropdown.Item>
+          <NavDropdown.Item href="https://cookieandkate.com/">Cookie and Kate</NavDropdown.Item>
+          <NavDropdown.Item href="https://minimalistbaker.com/">Minimalist Baker</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.101cookbooks.com/">101 Cookbooks</NavDropdown.Item>
+          <NavDropdown.Item href="http://www.greenkitchenstories.com/">Green Kitchen Stories</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action5">
-            Receipies from Top Chefs
+          <NavDropdown.Item href="https://www.budgetbytes.com/">
+          Budget Bytes
           </NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/user/login">
+        <Nav.Link className="nav4" href="/user/login">
           Sign In
         </Nav.Link>
-        <Nav.Link href="/user/register">
+        <Nav.Link className="nav5" href="/user/register">
           Sign Up
         </Nav.Link>
-        <Nav.Link href="https://rzp.io/l/ptIKdmORh">Checkout</Nav.Link>
-        {/* <div className='navstar'>
-        <div className='cart__icon'>
-          <img src="../asserts/iconcart.png" alt="cart" />
-          
-            <div className='item__count'>
-              <span></span>
-            </div>
-          
-        </div>
-      </div>
-         */}
+        <Nav.Link className="nav6" href="https://rzp.io/l/ptIKdmORh">Checkout</Nav.Link>
         </div>
       </Nav>
       <Form className="d-flex">
@@ -64,7 +55,7 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>  
       <div className='navhero'>
-        <div className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
+        <Nav.Link className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
           <i
             className='fa fa-shopping-cart'
             aria-hidden='true'
@@ -75,7 +66,7 @@ function Header() {
               <span>{cartItems.length}</span>
             </div>
           )}
-        </div>
+        </Nav.Link>
       </div>
 
     </Navbar.Collapse>

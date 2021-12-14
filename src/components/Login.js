@@ -1,12 +1,18 @@
 import React, { useState } from 'react'
 import '../css/Login.css'
 import BannerImage from '../asserts/odin1.webp';
-import { Link } from 'react-router-dom';
+import { Link, useHistory} from 'react-router-dom';
 
 
 function Login() {
+    const history = useHistory();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        history.push('/services');
+    }
 
     return (
         <div className='login' style={{backgroundImage: `url(${BannerImage})`,
@@ -26,7 +32,7 @@ function Login() {
                     <h5>Password</h5>
                     <input type='password' value={password} onChange={e => setPassword(e.target.value)} />
 
-                    <button type='submit' className='login__signInButton'>Sign In</button>
+                    <button type='submit' className='login__signInButton' onClick={handleSubmit}>Sign In</button>
                 </form>
 
                 <p>
