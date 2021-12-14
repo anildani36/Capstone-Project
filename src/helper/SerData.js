@@ -34,7 +34,7 @@ export const SerData =[
         image: Chocolate,
         names:"Dark Chocolate",
         category: "chocolate",
-        price: "550",
+        price: "350",
         description:"Life is a box of chocolates. You never know what you're gonna get. "
     },
     {
@@ -43,14 +43,14 @@ export const SerData =[
         names:"Dark Chocolate Cake",
         category: "cake",
         price: "403",
-        description:"No need for an occasion to eat sweets. So don't wait just have a blast! "
+        description:"If there's a cake in front of you, then you shouldn't look any further for joy! "
     },
     {
         _id: "4",
         image: Candy,
         names:"Rasgullas",
         category: "sweet",
-        price: "330",
+        price: "100",
         description:"They come in a variety of colours, hard outside and yumminess inside. "
     },
     {
@@ -58,7 +58,7 @@ export const SerData =[
         image: Dessert,
         names:"Desserts",
         category: "dess",
-        price: "100",
+        price: "300",
         description:" I want to have a good body but not as much as I want dessert."
     },
     {
@@ -66,7 +66,7 @@ export const SerData =[
         image: Dryfruit,
         names:"Pistachio",
         category: "dried",
-        price: " 150",
+        price: " 890",
         description:"Eat dried fruits and be healthy. You will find everything here"
     },
     {
@@ -82,7 +82,7 @@ export const SerData =[
         image: Cashew,
         names:"Cashew Nuts",
         category: "dried",
-        price: " 230",
+        price: " 630",
         description:"Eat dried fruits and be healthy. You will find everything here"
     },
      {
@@ -90,8 +90,8 @@ export const SerData =[
         image: Sweetto,
         names:"Laddos",
         category: "sweet",
-        price: " 100",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        price: " 150",
+        description:"No need for an occasion to eat sweets. So don't wait just have a blast!"
     },
      {
         _id: "10",
@@ -99,46 +99,47 @@ export const SerData =[
         names:"Dahi",
         category: "dess",
         price: " 70",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        description:"  I want to have a good body but not as much as I want dessert."
+        
     },
      {
         _id: "11",
         image: White,
         names:"White Chocolate",
         category: "chocolate",
-        price: " 500",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        price: " 220",
+        description:"Life is a box of chocolates. You never know what you're gonna get."
     },
      {
         _id: "12",
         image: Lolipop,
-        names:"Dried Fruits",
+        names:"Lolipops",
         category: "cand",
-        price: "400",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        price: "25",
+        description:"They come in a variety of colours, hard outside and yumminess inside."
     },
     {
         _id: "13",
         image: Bat,
         names:"Gems",
         category: "cand",
-        price: "10",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        price: "50",
+        description:"They come in a variety of colours, hard outside and yumminess inside."
     },
     {
         _id: "14",
         image: Van,
         names:"Vanila Cake ",
         category: "cake",
-        price: "400",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        price: "450",
+        description:"If there's a cake in front of you, then you shouldn't look any further for joy!"
     },
     {
         _id: "15",
         image: Sweet,
         names:"Milk Slices",
         category: "sweet",
-        price: "400",
-        description:"Eat dried fruits and be healthy. You will find everything here"
+        price: "200",
+        description:"No need for an occasion to eat sweets. So don't wait just have a blast!"
     }
 ]
