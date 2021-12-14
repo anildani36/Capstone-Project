@@ -55,11 +55,7 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>  
       <div className='navhero'>
-<<<<<<< HEAD
         <Nav.Link className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
-=======
-        <div className='cart__icon' style={{ color:'LimeGreen ',paddingLeft:'10px' }} onClick={showHideCart}>CART
->>>>>>> 236de748b5e87571489afc096a05ba7d33a317bb
           <i
             className='fa fa-shopping-cart'
             aria-hidden='true'
