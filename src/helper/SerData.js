@@ -1,18 +1,18 @@
-import Cakess from '../asserts/cake201.jpg';
-import Chocolate from '../asserts/choco1.jpg';
+import Cakess from '../asserts/cake201.webp';
+import Chocolate from '../asserts/choco1.webp';
 import Sweet from '../asserts/swe1.jpg';
-import Candy from '../asserts/ras.jpg';
-import Dessert from '../asserts/pud1.jpg';
-import Dryfruit from '../asserts/dried.jpg';
-import White from '../asserts/whitechoco1.jpg';
-import Almond from '../asserts/alam1.jpg';
-import Cashew from '../asserts/kaju1.jpg';
-import Lolipop from '../asserts/loli.jpg';
-import Sweetto from '../asserts/laddos.jpg';
-import Puding from '../asserts/dahi.jpg';
-import Motu from '../asserts/cake41.jpg';
-import Van from '../asserts/val.jpg';
-import Bat from '../asserts/shan.jpg';
+import Candy from '../asserts/ras.webp';
+import Dessert from '../asserts/pud1.webp';
+import Dryfruit from '../asserts/dried.webp';
+import White from '../asserts/whitechoco1.webp';
+import Almond from '../asserts/alam1.webp';
+import Cashew from '../asserts/kaju1.webp';
+import Lolipop from '../asserts/loli.webp';
+import Sweetto from '../asserts/laddos.webp';
+import Puding from '../asserts/dahi.webp';
+import Motu from '../asserts/cake41.webp';
+import Van from '../asserts/val.webp';
+import Bat from '../asserts/shan.webp';
 
 
 

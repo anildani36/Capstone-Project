@@ -1,9 +1,11 @@
 import React from 'react'
 import TeamCard from './TeamCard'
+import TeamCard1 from './TeamCard1'
+import TeamCard2 from './TeamCard2'
 import { Card } from 'react-bootstrap'
 import '../css/About.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BannerImage from '../asserts/cake131.jpg';
+import BannerImage from '../asserts/cake131.webp';
 
 function About() {
     return (
@@ -27,8 +29,8 @@ function About() {
                     <h3>Team Info</h3>
                     
                     <TeamCard />
-                    <TeamCard />
-                    <TeamCard />
+                    <TeamCard1 />
+                    <TeamCard2 />
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../css/Register.css'
-import BannerImage from '../asserts/cake12.jpg';
+import BannerImage from '../asserts/cake12.webp';
+import { Link } from 'react-router-dom';
 
 function Register() {
     const [email, setEmail] = useState('');
@@ -36,10 +37,9 @@ function Register() {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-
+                <Link to='/user/login'>
                 <button className='register__loginButton'>Already have an Account?</button>
-
-
+                </Link>
             </div>
         </div>
     )

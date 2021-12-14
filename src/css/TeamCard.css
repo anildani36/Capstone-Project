@@ -5,7 +5,28 @@
 }
 
 .avator {
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 50%;
+    height: 50%;
     border-radius: 60%;
+    align-items: center;
+}
+
+.info1 {
+    margin-left: 80px;
+}
+
+.info2 {
+    margin-left: 57px;
+}
+
+.info3 {
+    margin-left: 70px;
+}
+
+.info4 {
+    margin-left: 60px;
 }
 
 .list-group-flush {

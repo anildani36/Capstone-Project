@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../css/Login.css'
-import BannerImage from '../asserts/odin1.jpg';
+import BannerImage from '../asserts/odin1.webp';
+import { Link } from 'react-router-dom';
 
 
 function Login() {
@@ -33,9 +34,9 @@ function Login() {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-
+                <Link to='/user/register'>
                 <button className='login__registerButton'>Create your Account</button>
-
+                </Link>
 
             </div>
         </div>

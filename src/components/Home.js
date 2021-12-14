@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom';
 import BannerImage from '../asserts/tao1.jpg';
 import '../css/Home.css';
 import {Carousel} from 'react-bootstrap';
-import Dan from '../asserts/ban1.jpg';
-import Dans from '../asserts/ban6.jpg';
-import Danss from '../asserts/ban4.jpg';
-import Dax from '../asserts/food21.jpg';
+import Dan from '../asserts/ban1.webp';
+import Dans from '../asserts/ban6.webp';
+import Danss from '../asserts/ban4.webp';
+import Dax from '../asserts/food21.webp';
 
 
 
