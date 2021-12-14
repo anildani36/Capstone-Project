@@ -1,6 +1,6 @@
 import Cakess from '../asserts/cake201.webp';
 import Chocolate from '../asserts/choco1.webp';
-import Sweet from '../asserts/swe1.jpg';
+import Sweet from '../asserts/swe1.webp';
 import Candy from '../asserts/ras.webp';
 import Dessert from '../asserts/pud1.webp';
 import Dryfruit from '../asserts/dried.webp';

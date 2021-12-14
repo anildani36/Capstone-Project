@@ -41,6 +41,7 @@ function Header() {
         <Nav.Link href="/user/register">
           Sign Up
         </Nav.Link>
+        <Nav.Link href="https://rzp.io/l/ptIKdmORh">Checkout</Nav.Link>
         {/* <div className='navstar'>
         <div className='cart__icon'>
           <img src="../asserts/iconcart.png" alt="cart" />
