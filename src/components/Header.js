@@ -11,8 +11,8 @@ import CartContext from "../context/cart/CartContext";
 function Header() {
   const { cartItems, showHideCart } = useContext(CartContext);
     return (
-        <div className="abcd">
-          <Navbar  bg="dark" variant="dark" expand="lg">
+        <div>
+          <Navbar  bg="dark" variant="dark" expand="lg" className='abcd'>
           <Container>
           <Navbar.Brand href="/">SWEET BASKET</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,7 +23,6 @@ function Header() {
               navbarScroll
             >
         <div className="nav_names">
-        <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/services">Services</Nav.Link>
         <Nav.Link href="/about">About</Nav.Link>
         <NavDropdown title="Blogs" id="navbarScrollingDropdown">
