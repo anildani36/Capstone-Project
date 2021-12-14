@@ -14,7 +14,7 @@ function Header() {
         <div>
           <Navbar  bg="dark" variant="dark" expand="lg" className='abcd'>
           <Container>
-          <Navbar.Brand href="/">SWEET BASKET</Navbar.Brand>
+          <Navbar.Brand href="/"><h3 style={{color:'rgb(191, 255, 0)'}}>SWEET BASKET</h3></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -55,7 +55,11 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>  
       <div className='navhero'>
+<<<<<<< HEAD
         <Nav.Link className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
+=======
+        <div className='cart__icon' style={{ color:'LimeGreen ',paddingLeft:'10px' }} onClick={showHideCart}>CART
+>>>>>>> 236de748b5e87571489afc096a05ba7d33a317bb
           <i
             className='fa fa-shopping-cart'
             aria-hidden='true'
