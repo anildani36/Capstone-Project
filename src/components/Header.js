@@ -14,7 +14,7 @@ function Header() {
         <div>
           <Navbar  bg="dark" variant="dark" expand="lg" className='abcd'>
           <Container>
-          <Navbar.Brand href="/">SWEET BASKET</Navbar.Brand>
+          <Navbar.Brand href="/"><h3 style={{color:'rgb(191, 255, 0)'}}>SWEET BASKET</h3></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -23,6 +23,7 @@ function Header() {
               navbarScroll
             >
         <div className="nav_names">
+        <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/services">Services</Nav.Link>
         <Nav.Link href="/about">About</Nav.Link>
         <NavDropdown title="Blogs" id="navbarScrollingDropdown">
@@ -64,7 +65,7 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>  
       <div className='navhero'>
-        <div className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
+        <div className='cart__icon' style={{ color:'LimeGreen ',paddingLeft:'10px' }} onClick={showHideCart}>CART
           <i
             className='fa fa-shopping-cart'
             aria-hidden='true'
