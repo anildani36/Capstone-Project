@@ -23,6 +23,7 @@ function Header() {
               navbarScroll
             >
         <div className="nav_names">
+        <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link className="nav1" href="/services">Services</Nav.Link>
         <Nav.Link className="nav2" href="/about">About</Nav.Link>
         <NavDropdown title="Food Blogs" id="navbarScrollingDropdown" className="nav3">
@@ -55,10 +56,10 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>  
       <div className='navhero'>
-        <Nav.Link className='cart__icon text-info' style={{ paddingLeft:'10px' }} onClick={showHideCart}>CART
+        <Nav.Link className='cart__icon' style={{color:'LimeGreen ', paddingLeft:'10px' }} onClick={showHideCart}>BASKET
           <i
-            className='fa fa-shopping-cart'
-            aria-hidden='true'
+            // className='fa fa-shopping-cart'
+            // aria-hidden='true'
             // onClick={showHideCart}
           />
           {cartItems.length > 0 && (

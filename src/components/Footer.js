@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-            <h5>DRACO CAPSTONE PRO</h5>
+            <h5  style={{ color:'SeaGreen  ' }}>DRACO CAPSTONE PRO:-</h5>
             <div className="list-unstyled">
               <li>7980123346</li>
               <li>KOLKATA, INDIA</li>
@@ -17,7 +17,7 @@ function Footer() {
           </div>
           {/* Column2 */}
           <div className="col">
-            <h5>ABOUT</h5>
+            <h5  style={{ color:'SeaGreen  ' }}>ABOUT:-</h5>
             <ui className="list-unstyled">
                 
               <li>SWEETS</li>
@@ -28,7 +28,7 @@ function Footer() {
           </div>
           {/* Column3 */}
           <div className="col">
-            <h5>CONTACT</h5>
+            <h5  style={{ color:'SeaGreen  ' }}>CONTACT:-</h5>
             <ui className="list-unstyled">
                 
               <li>FACEBOOK</li>
@@ -40,7 +40,7 @@ function Footer() {
         </div>
         <hr />
         <div className="row">
-          <p className="col-sm">
+          <p className="col-sm"  style={{ color:'SeaGreen  ',paddingLeft:'33%' }}>
             &copy;{new Date().getFullYear()} DRACO SOAL | All rights reserved |
             Terms Of Service | Privacy
           </p>
